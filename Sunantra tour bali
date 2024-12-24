@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Bali - Ubud & Kintamani</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Bali Explore Tours</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinasi</a></li>
+        <li><a href="#packages">Paket Wisata</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Temukan Keindahan Bali: Ubud & Kintamani</h1>
+    <a href="#packages" class="btn">Pesan Sekarang</a>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations">
+    <h2>Destinasi Populer</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="ubud.jpg" alt="Ubud">
+        <h3>Ubud</h3>
+        <p>Monkey Forest, Tegallalang, Pura Saraswati</p>
+      </div>
+      <div class="card">
+        <img src="kintamani.jpg" alt="Kintamani">
+        <h3>Kintamani</h3>
+        <p>Gunung Batur, Danau Batur, Toya Devasya</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages">
+    <h2>Paket Wisata</h2>
+    <div class="packages">
+      <div class="package">
+        <h3>Half-Day Ubud</h3>
+        <p>Rp 300.000 - Transportasi, Guide, Tiket Masuk</p>
+        <a href="#contact" class="btn">Pesan Sekarang</a>
+      </div>
+      <div class="package">
+        <h3>Full-Day Ubud & Kintamani</h3>
+        <p>Rp 600.000 - Transportasi, Guide, Tiket Masuk, Makan Siang</p>
+        <a href="#contact" class="btn">Pesan Sekarang</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama" required>
+      <input type="tel" placeholder="Nomor HP" required>
+      <textarea placeholder="Pesan Anda" required></textarea>
+      <button type="submit" class="btn">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Bali Explore Tours. All rights reserved.</p>
+  </footer>
+</body>
+</html>
